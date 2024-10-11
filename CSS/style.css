@@ -1,0 +1,388 @@
+*{
+  font-family: "Alegreya", serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* start home */
+
+.home{
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0 , 0.5);
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.navbar{
+  width: 90%;
+  margin: auto;
+}
+
+.logo{
+  float: left;
+  width: 250px;
+  padding: 10px 50px ;
+}
+
+.logo img{
+  width: 85%;
+}
+
+.list{
+  float: right;
+  padding: 10px;
+}
+
+.list ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.list ul li a{
+  color: white;
+  text-decoration: none; 
+  font-size: 22px;
+}
+
+.home-content{
+  margin: 145px auto;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.home-content p{
+  font-size: 20px;
+}
+
+.home-content h1{
+  font-size: 70px;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn1{
+  background-color: #8e7754;
+  padding: 13px 28px;
+  border-radius: 4px;
+  border: 2px solid #8e7754;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.btn2{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 13px 28px;
+  margin-top: 20px;
+}
+
+.btn1:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+/* end home */
+
+
+/* start who we are */
+
+.who-we-are{
+  padding: 100px 0px;
+}
+.container{
+  width: 82%;
+  margin: auto;
+}
+.who-image{
+  width: 42%;
+  display: inline-block;
+}
+
+.who-image img{
+  width: 100%;
+}
+
+.who-content{
+  width: 50%;
+  display: inline-block;
+  padding-left: 50px;
+  vertical-align: 20px;
+}
+
+.who-content h4{
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.who-content h6{
+  line-height: 35px; 
+  font-size: 20px;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.icons img{
+  display: inline-block;
+}
+
+.icons p{
+  display: inline-block;
+  vertical-align: 14px;
+  font-size: 20px;
+}
+
+/* end who we are */
+
+
+/* start our location */
+
+.our-location{
+  padding: 100px 0px;
+  background-color: #f8f8f8;
+}
+.container{
+  width: 82%;
+  margin: auto;
+}
+.location-image{
+  width: 42%;
+  display: inline-block;
+}
+
+.location-image img{
+  width: 100%;
+}
+
+.location-content{
+  width: 50%;
+  display: inline-block;
+  padding-left: 50px;
+  vertical-align: 100px;
+}
+
+.location-content h4{
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.location-content h6{
+  line-height: 35px; 
+  font-size: 20px;
+  font-weight: 100;
+  text-align: justify;
+  padding-right: 80px;
+}
+
+/* end our location */
+
+
+/* start our baking */
+
+.our-baking{
+  text-align: center;
+  padding: 100px 0;
+}
+
+.our-baking h2{
+  font-size: 35px;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+
+.our-baking p{
+  color: #686868;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+}
+
+.items-container{
+  display: inline-block;
+}
+.item{
+  width: 30%;
+  float: left;
+  margin-left: 40px;
+}
+
+.item img{
+  width: 100%;
+}
+
+.item h4{
+  font-size: 24px;
+  font-weight: 200;
+}
+
+/* end our baking */
+
+
+/* start contact information */
+
+.contact-information{
+  padding: 100px 0px;
+  background-color: #f8f8f8;
+}
+.container{
+  width: 82%;
+  margin: auto;
+}
+.contact-map{
+  width: 40%;
+  display: inline-block;
+}
+
+.contact-map iframe{
+  width: 100%;
+}
+
+.contact-content{
+  width: 57%;
+  display: inline-block;
+  padding-left: 50px;
+  vertical-align: 20px;
+}
+
+.contact-content h4{
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.contact-content p{
+  line-height: 35px; 
+  font-size: 20px;
+  font-weight: 100;
+  text-align: justify;
+  padding-right: 80px;
+  color: #161616;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.icons img{
+  display: inline-block;
+}
+
+.icons p{
+  display: inline-block;
+  vertical-align: 14px;
+  font-size: 20px;
+}
+
+/* end contact information */
+
+
+/* start footer */
+
+.footer{
+  background-color: #403d38;
+  padding: 20px 0;
+}
+
+.footer .card{
+  width: 25%;
+  float: left;
+  color: white;
+  padding: 20px;
+}
+
+.footer .card h4{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer .card p{
+  color: #969696;
+  line-height: 35px;
+}
+
+.footer .card .icons p{
+  font-size: 15px;
+  line-height: 35px; 
+}
+
+.footer .card .icons{
+  border-bottom: 1px solid gray;
+}
+
+.footer .card-5{
+  width: 25%;
+  float: left;
+  color: white;
+  padding: 20px;
+}
+
+.footer .card-5 h4{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer .card-5 p{
+  color: #969696;
+  line-height: 35px;
+}
+
+.footer .card-5 .icons p{
+  font-size: 15px;
+  line-height: 35px; 
+}
+
+.footer .card-5 .icons{
+  border-bottom: 1px solid gray;
+}
+
+.card-5{
+  position: relative;
+}
+
+.card-5 img{
+  position: absolute;
+  top: 170px;
+  opacity: 0.2;
+}
+
+/* end footer */
+
+/* start footer photo */
+
+.footer-photo{
+  padding: 20px 0;
+  background-color: #353330;
+}
+
+.footer-photo img{
+  width: 30%;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-left: 430px;
+}
+
+/* end footer photo */
